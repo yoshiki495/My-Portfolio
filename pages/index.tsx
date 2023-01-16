@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="flex flex-col pr-8">
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-                Lee Robinson
+                Yoshiki Tanaka
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
                 VP of Developer Experience at{' '}
@@ -34,7 +34,7 @@ export default function Home() {
                 src="/avatar.jpg"
                 sizes="30vw"
                 priority
-                className="rounded-full filter grayscale"
+                className="rounded-full filter"
               />
             </div>
           </div>

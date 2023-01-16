@@ -1,62 +1,46 @@
-import { MDXRemote } from 'next-mdx-remote';
 import BlogLayout from 'layouts/blog';
-import Tweet from 'components/Tweet';
-import components from 'components/MDXComponents';
-import { postQuery, postSlugsQuery } from 'lib/queries';
-import { getTweets } from 'lib/twitter';
-import { sanityClient, getClient } from 'lib/sanity-server';
-import { mdxToHtml } from 'lib/mdx';
+import { getAllPosts, getPostBySlug } from "../../lib/read-markdown";
+import markdownToHtml from "../../lib/convert-file";
 import { Post } from 'lib/types';
 
 export default function PostPage({ post }: { post: Post }) {
-  const StaticTweet = ({ id }) => {
-    const tweet = post.tweets.find((tweet) => tweet.id === id);
-    return <Tweet {...tweet} />;
-  };
-
   return (
     <BlogLayout post={post}>
-      <MDXRemote
-        {...post.content}
-        components={
-          {
-            ...components,
-            StaticTweet
-          } as any
-        }
-      />
     </BlogLayout>
   );
 }
 
-export async function getStaticPaths() {
-  const paths = await sanityClient.fetch(postSlugsQuery);
+/**
+ * 記事のパスを取得する
+ */
+export const getStaticPaths = async () => {
+  const posts = getAllPosts(["slug"]);
   return {
-    paths: paths.map((slug) => ({ params: { slug } })),
-    fallback: 'blocking'
+    paths: posts.map((post) => {
+      return {
+        params: {
+          slug: post.slug,
+        },
+      };
+    }),
+    fallback: false,
   };
-}
+};
 
-export async function getStaticProps({ params, preview = false }) {
-  const { post } = await getClient(preview).fetch(postQuery, {
-    slug: params.slug
-  });
-
-  if (!post) {
-    return { notFound: true };
-  }
-
-  const { html, tweetIDs, readingTime } = await mdxToHtml(post.content);
-  const tweets = await getTweets(tweetIDs);
-
+/**
+ * 記事の内容を取得する
+ */
+export const getStaticProps = async ({ params }: any) => {
+  const post = getPostBySlug(params.slug, ["slug", "title", "date", "content"]);
+  // Markdown を HTML に変換する
+  const content = await markdownToHtml(post.content);
+  // content を詰め直して返す
   return {
     props: {
       post: {
         ...post,
-        content: html,
-        tweets,
-        readingTime
-      }
-    }
+        content,
+      },
+    },
   };
-}
+};

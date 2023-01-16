@@ -3,8 +3,7 @@ import { Suspense, useState } from 'react';
 import Container from 'components/Container';
 import BlogPost from 'components/BlogPost';
 import { InferGetStaticPropsType } from 'next';
-import { indexQuery } from 'lib/queries';
-import { getClient } from 'lib/sanity-server';
+import { getAllPosts } from 'lib/read-markdown';
 import { Post } from 'lib/types';
 
 export default function Blog({
@@ -52,28 +51,6 @@ export default function Blog({
             />
           </svg>
         </div>
-        {!searchValue && (
-          <>
-            <h3 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
-              Most Popular
-            </h3>
-            <BlogPost
-              title="Rust Is The Future of JavaScript Infrastructure"
-              excerpt="Why is Rust being used to replace parts of the JavaScript web ecosystem like minification (Terser), transpilation (Babel), formatting (Prettier), bundling (webpack), linting (ESLint), and more?"
-              slug="rust"
-            />
-            <BlogPost
-              title="Everything I Know About Style Guides, Design Systems, and Component Libraries"
-              excerpt="A deep-dive on everything I've learned in the past year building style guides, design systems, component libraries, and their best practices."
-              slug="style-guides-component-libraries-design-systems"
-            />
-            <BlogPost
-              title="Building a Design System Monorepo with Turborepo"
-              excerpt="Manage multiple packages with a shared build, test, and release process using Turborepo, Changesets, Storybook, and more."
-              slug="turborepo-design-system-monorepo"
-            />
-          </>
-        )}
         <Suspense fallback={null}>
           <h3 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
             All Posts
@@ -88,7 +65,7 @@ export default function Blog({
               key={post.title}
               slug={post.slug}
               title={post.title}
-              excerpt={post.excerpt}
+              excerpt={post.content}
             />
           ))}
         </Suspense>
@@ -98,7 +75,7 @@ export default function Blog({
 }
 
 export async function getStaticProps({ preview = false }) {
-  const posts: Post[] = await getClient(preview).fetch(indexQuery);
+  const posts = getAllPosts(["slug", "title", "date", "tags"]);
 
   return { props: { posts } };
 }

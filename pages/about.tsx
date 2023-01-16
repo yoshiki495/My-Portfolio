@@ -80,15 +80,6 @@ export default function About() {
                 className="rounded-md"
               />
             </a>
-            <a href="/avatar-bw.jpg">
-              <Image
-                alt="Lee Robinson headshot"
-                width={400}
-                quality={100}
-                src={avatarBW}
-                className="rounded-md"
-              />
-            </a>
           </div>
         </div>
       </div>
