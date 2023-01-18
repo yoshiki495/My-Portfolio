@@ -84,7 +84,7 @@ export default function Home() {
             My Project
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            Previous projects that I've created with my friends.
+            Previous projects that have been created.
           </p>
           <VideoCard
             index="01"
