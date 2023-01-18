@@ -17,12 +17,11 @@ export default function Home() {
                 Yoshiki Tanaka
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                VP of Developer Experience at{' '}
-                <span className="font-semibold">Vercel</span>
+                Software Developer and a member of {' '}
+                <span className="font-semibold">Miyaji Lab</span>
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                Helping developers build a faster web. Teaching about web
-                development, serverless, and React / Next.js.
+                I'm learning Python, Node.js, React, Next.js, AWS, etc...
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
