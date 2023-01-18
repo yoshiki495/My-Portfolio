@@ -96,6 +96,11 @@ export default function Home() {
             href="https://chat-gpt-clone-6ga39d9v3-yoshiki495.vercel.app"
             title="ChatGPT Clone"
           />
+          <VideoCard
+            index="03"
+            href="https://youtu.be/jwWmYjBuda0"
+            title="Purposeful Activity"
+          />
         </div>
       </Container>
     </Suspense>
