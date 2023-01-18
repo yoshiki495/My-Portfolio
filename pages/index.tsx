@@ -87,12 +87,12 @@ export default function Home() {
             Previous projects that have been created.
           </p>
           <VideoCard
-            index="02"
+            index="01"
             href="https://apps.apple.com/us/app/new-job-with/id1611340066"
             title="New Job With"
           />
           <VideoCard
-            index="01"
+            index="02"
             href="https://chat-gpt-clone-6ga39d9v3-yoshiki495.vercel.app"
             title="ChatGPT Clone"
           />
