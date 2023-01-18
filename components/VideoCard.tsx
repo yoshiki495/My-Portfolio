@@ -1,4 +1,4 @@
-export default function VideoCard({ href, length, title, index }) {
+export default function VideoCard({ href, title, index }) {
   return (
     <a
       className="w-full"
@@ -18,9 +18,6 @@ export default function VideoCard({ href, length, title, index }) {
             </h4>
           </div>
           <div className="flex items-center mt-2 sm:mt-0 w-full sm:w-auto justify-between">
-            <p className="text-gray-500 dark:text-gray-400 text-left sm:text-right w-32 md:mb-0 mr-2 ml-10 sm:ml-0">
-              {length}
-            </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4 text-gray-500 dark:text-gray-100"

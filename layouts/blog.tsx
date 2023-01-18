@@ -1,8 +1,6 @@
 import { PropsWithChildren, Suspense } from 'react';
 
 import Container from 'components/Container';
-import Subscribe from 'components/Subscribe';
-import ViewCounter from 'components/ViewCounter';
 import { Post } from 'lib/types';
 
 export default function BlogLayout({
@@ -11,7 +9,7 @@ export default function BlogLayout({
 }: PropsWithChildren<{ post: Post }>) {
   return (
     <Container
-      title={`${post.title} – Lee Robinson`}
+      title={`${post.title} – Yoshiki Tanaka`}
       description={post.excerpt}
       date={new Date(post.date).toISOString()}
       type="article"
@@ -23,20 +21,14 @@ export default function BlogLayout({
         <div className="flex flex-col items-start justify-between w-full mt-2 md:flex-row md:items-center">
           <div className="flex items-center">
             <p className="ml-2 text-sm text-gray-700 dark:text-gray-300">
-              {'Lee Robinson / '}
+              {'Yoshiki Tanaka / '}
               {post.date}
             </p>
           </div>
-          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 min-w-32 md:mt-0">
-            <ViewCounter slug={post.slug} />
-          </p>
         </div>
         <Suspense fallback={null}>
           <div className="w-full mt-4 prose dark:prose-dark max-w-none">
             <div dangerouslySetInnerHTML={{ __html: post.content.toString() }} />
-          </div>
-          <div className="mt-8">
-            <Subscribe />
           </div>
           <div className="text-sm text-gray-700 dark:text-gray-300">
             <a
