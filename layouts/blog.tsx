@@ -26,30 +26,6 @@ export default function BlogLayout({
             </p>
           </div>
         </div>
-        <Suspense fallback={null}>
-          <div className="w-full mt-4 prose dark:prose-dark max-w-none">
-            <div dangerouslySetInnerHTML={{ __html: post.content.toString() }} />
-          </div>
-          <div className="text-sm text-gray-700 dark:text-gray-300">
-            <a
-              href={`https://mobile.twitter.com/search?q=${encodeURIComponent(
-                `https://leerob.io/blog/${post.slug}`
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {'Discuss on Twitter'}
-            </a>
-            {` • `}
-            <a
-              href="https://github.com/leerob/leerob.io/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {'Suggest Change'}
-            </a>
-          </div>
-        </Suspense>
       </article>
     </Container>
   );
