@@ -26,6 +26,11 @@ export default function BlogLayout({
             </p>
           </div>
         </div>
+        <Suspense fallback={null}>
+          <div className="w-full mt-4 prose dark:prose-dark max-w-none">
+            <div dangerouslySetInnerHTML={{ __html: post.content.toString() }} />
+          </div>
+        </Suspense>
       </article>
     </Container>
   );
