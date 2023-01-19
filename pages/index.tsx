@@ -94,7 +94,7 @@ export default function Home() {
           <VideoCard
             index="02"
             href="https://chat-gpt-clone-three.vercel.app/"
-            title="ChatGPT Clone"
+            title="ChatGPT for Yoshiki"
           />
           <VideoCard
             index="03"
