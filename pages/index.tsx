@@ -168,16 +168,11 @@ export default function Home() {
       />
       <VideoCard
         index="03"
-        href="https://youtu.be/jwWmYjBuda0"
-        title="Purposeful Activity ~ B3開発 ~ "
-      />
-      <VideoCard
-        index="04"
         href="https://github.com/yoshiki495/Code-Editor-with-GPT-3.5-Turbo"
         title="Code Editor with GPT-3.5 Turbo ~ B3開発 ~ "
       />
       <VideoCard
-        index="05"
+        index="04"
         href="https://github.com/yoshiki495/Mind-Mate"
         title="MindMate ~ B3開発 ~ "
       />
