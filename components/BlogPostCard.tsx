@@ -3,9 +3,11 @@ import useSWR from 'swr';
 import cn from 'classnames';
 
 import fetcher from 'lib/fetcher';
-import { Views } from 'lib/types';
 
 export default function BlogPostCard({ title, slug, gradient }) {
+  interface Views {
+    total: number;
+  }
   const { data } = useSWR<Views>(`/api/views/${slug}`, fetcher);
   const views = data?.total;
 
