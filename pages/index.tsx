@@ -73,7 +73,7 @@ export default function Home() {
                           <div className="text-gray-500">2020年4月 - 2024年3月</div>
                         </div>
                         <div className="ml-12">
-                          <h4 className="font-bold mb-2">青山学院大学</h4>
+                          <h4 className="font-bold mb-2">青山学院大学 社会情報学部</h4>
                           <p className="text-gray-500">情報/人間コースを専攻しており、コンピュータサイエンスの基礎からUI/UXを軸としたプロダクト開発を学ぶ。</p>
                         </div>
                       </li>
