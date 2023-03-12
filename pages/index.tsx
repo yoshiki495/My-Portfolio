@@ -154,27 +154,37 @@ export default function Home() {
         My Project
       </h3>
       <p className="text-gray-600 dark:text-gray-400 mb-4">
-        個人制作物を時系列に沿って紹介します。
+        今までの制作物を時系列に沿って紹介します。
       </p>
       <VideoCard
         index="01"
         href="https://github.com/yoshiki495/PythonDiagnosticApp"
-        title="Python診断 ~ B2開発 ~ "
+        title="Python診断 ~ B2開発（個人） ~ "
       />
       <VideoCard
         index="02"
         href="https://apps.apple.com/us/app/new-job-with/id1611340066"
-        title="New Job With ~ B2開発 ~ "
+        title="New Job With ~ B2開発（個人）  ~ "
       />
       <VideoCard
         index="03"
-        href="https://github.com/yoshiki495/Code-Editor-with-GPT-3.5-Turbo"
-        title="Code Editor with GPT-3.5 Turbo ~ B3開発 ~ "
+        href="https://github.com/moffy-Black/PurposefulActivity-Pub"
+        title="Purposeful Activity ~ B3開発（ハッカソン） ~ "
       />
       <VideoCard
         index="04"
+        href="https://github.com/Takumi0711/SummerHackthon2022"
+        title="目指せ！駅伝優勝！ ~ B3開発（ハッカソン） ~ "
+      />
+      <VideoCard
+        index="05"
+        href="https://github.com/yoshiki495/Code-Editor-with-GPT-3.5-Turbo"
+        title="Code Editor with GPT-3.5 Turbo ~ B3開発（個人） ~ "
+      />
+      <VideoCard
+        index="06"
         href="https://github.com/yoshiki495/Mind-Mate"
-        title="MindMate ~ B3開発 ~ "
+        title="MindMate ~ B3開発（個人） ~ "
       />
 
       {/* <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 mt-16 text-black dark:text-white">
