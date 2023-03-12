@@ -16,7 +16,7 @@ export default function Home() {
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
                 Yoshiki Tanaka
               </h1>
-              <h2 className="text-gray-700 dark:text-gray-200 mt-2">
+              <h2 className="text-gray-700 dark:text-gray-200 mt-6">
               <span className="font-semibold">Aoyama Gakuin Univ. </span>
                 {'  '} ▶︎ B3 | MYJ Lab | Voice Recognition 
               </h2>
