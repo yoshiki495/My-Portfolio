@@ -70,7 +70,7 @@ export default function Home() {
                             d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
                         </svg>
                           <div className="flex-1 ml-4 font-bold">School</div>
-                          <div className="text-gray-500">2020年4月 - 2024年3月</div>
+                          <div className="text-gray-500">2020年4月 - 現在</div>
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">青山学院大学 社会情報学部</h4>
@@ -114,7 +114,7 @@ export default function Home() {
                             d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z" />
                         </svg>
                           <div className="flex-1 ml-4 font-bold">School</div>
-                          <div className="text-gray-500">2022年4月 - 2024年3月</div>
+                          <div className="text-gray-500">2022年4月 - 現在</div>
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">宮治研究室</h4>
@@ -147,6 +147,46 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+        </div>
+      </div>
+
+      <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-4 text-black dark:text-white">
+        My Achievement
+      </h3>
+      <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center md:justify-center mb-8 md:mb-16">
+          <div className="mx-4">
+            <div className="text-gray-700 dark:text-gray-200 text-center md:text-left">
+              <div className="relative pl-4 mb-8">
+                <div className="border-r-2 border-gray-600 absolute h-full top-0" style={{left: "15px"}}></div>
+                <ul className="list-none m-2 p-2">
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">四半期MVP取得</div>
+                      <div className="text-gray-500">2022年 Q2</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        100人以上在籍する学生インターンの中で、四半期で最も成果を上げたと認められ、MVPを受賞しました。
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
