@@ -5,7 +5,6 @@ import { useTheme } from 'next-themes';
 import NextLink from 'next/link';
 import cn from 'classnames';
 
-import Footer from 'components/Footer';
 import MobileMenu from 'components/MobileMenu';
 
 function NavItem({ href, text }) {
@@ -74,10 +73,6 @@ export default function Container(props) {
           <div className="ml-[-0.60rem]">
             <MobileMenu />
             <NavItem href="https://github.com/yoshiki495" text="GitHub" />
-            {/* <NavItem href="/guestbook" text="Guestbook" />
-            <NavItem href="/dashboard" text="Dashboard" /> */}
-            {/* <NavItem href="/blog" text="Blog" /> */}
-            {/* <NavItem href="/snippets" text="Snippets" /> */}
           </div>
           <button
             aria-label="Toggle Dark Mode"
@@ -120,7 +115,6 @@ export default function Container(props) {
         className="flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900"
       >
         {children}
-        <Footer />
       </main>
     </div>
   );
