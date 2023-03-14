@@ -201,7 +201,7 @@ export default function Home() {
       />
       <VideoCard
         index="02"
-        href="https://apps.apple.com/us/app/new-job-with/id1611340066"
+        href="https://www.new-job-with.com/"
         title="New Job With ~ B2開発（個人）  ~ "
       />
       <VideoCard
