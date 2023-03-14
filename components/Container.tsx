@@ -6,6 +6,7 @@ import NextLink from 'next/link';
 import cn from 'classnames';
 
 import MobileMenu from 'components/MobileMenu';
+import Chat from 'components/Chat';
 
 function NavItem({ href, text }) {
   const router = useRouter();
@@ -116,6 +117,10 @@ export default function Container(props) {
       >
         {children}
       </main>
+      {/* 画面の右下に常にの`<Chat/>`を配置する */}
+      <div className="fixed bottom-8 right-8 w-80 h-1/2 overflow-scroll">
+        <Chat />
+      </div>
     </div>
   );
 }
