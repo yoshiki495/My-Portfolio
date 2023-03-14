@@ -7,8 +7,8 @@ import { type Message, ChatLine, LoadingChatLine } from 'components/ChatLine'
 // default first message to display in UI (not necessary to define the prompt)
 export const initialMessages: Message[] = [
   {
-    who: 'bot',
-    message: 'Hi! I’m an AI assistant for you. Ask me anything!!',
+    who: 'assistant',
+    message: '私はYoshikiのAIアシスタントです。\n彼に関する質問があれば私が代わりにお答えします。',
   },
 ]
 
@@ -74,7 +74,7 @@ export default function Chat() {
 
     setMessages([
       ...newMessages,
-      { message: botNewMessage, who: 'bot' } as Message,
+      { message: botNewMessage, who: 'assistant' } as Message,
     ])
     setLoading(false)
   }
