@@ -94,7 +94,7 @@ export default function Home() {
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">株式会社フェズ</h4>
-                          <p className="text-gray-500">Python, JavaScript, Google Analytics APIを使用して、社内分析ツールのバックエンド開発を担当。</p>
+                          <p className="text-gray-500">Flask, GAS, Google Analytics APIを使用して、社内分析ツールのバックエンド開発を担当。</p>
                         </div>
                       </li>
                       <li className="mb-4">
@@ -138,7 +138,7 @@ export default function Home() {
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">株式会社キュービック</h4>
-                          <p className="text-gray-500">JavaScript, AWS, Serverless Frameworkを使用して、新規プロダクトのバックエンド開発を担当。</p>
+                          <p className="text-gray-500">Node.js, Serverless Frameworkを使用して、新規プロダクトのバックエンド開発を担当。</p>
                         </div>
                       </li>
                     </ul>
@@ -219,11 +219,11 @@ export default function Home() {
         href="https://github.com/yoshiki495/Code-Editor-with-GPT-3.5-Turbo"
         title="Code Editor with GPT-3.5 Turbo ~ B3開発（個人） ~ "
       />
-      <VideoCard
+      {/* <VideoCard
         index="06"
         href="https://github.com/yoshiki495/Mind-Mate"
         title="MindMate ~ B3開発（個人） ~ "
-      />
+      /> */}
 </div>
 </Container>
 </Suspense>

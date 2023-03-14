@@ -118,7 +118,7 @@ export default function Container(props) {
         {children}
       </main>
       {/* 画面の右下に常にの`<Chat/>`を配置する */}
-      <div className="fixed bottom-8 right-8 w-80 h-1/2 overflow-scroll">
+      <div className="fixed bottom-8 right-8 w-80 h-1/2 overflow-scroll invisible xl:visible">
         <Chat />
       </div>
     </div>
