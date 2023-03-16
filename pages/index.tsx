@@ -219,6 +219,11 @@ export default function Home() {
         href="https://github.com/yoshiki495/Code-Editor-with-GPT-3.5-Turbo"
         title="Code Editor with GPT-3.5 Turbo ~ B3開発（個人） ~ "
       />
+      <VideoCard
+        index="06"
+        href="https://github.com/yoshiki495/My-Portfolio"
+        title="My Portfolio ~ B3開発（個人） ~ "
+      />
       {/* <VideoCard
         index="06"
         href="https://github.com/yoshiki495/Mind-Mate"
