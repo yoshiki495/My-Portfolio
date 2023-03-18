@@ -3,6 +3,7 @@ import Link from 'next/link';
 import useDelayedRender from 'use-delayed-render';
 import { useState, useEffect } from 'react';
 import styles from 'styles/mobile-menu.module.css';
+import Chat from 'components/Chat';
 
 export default function MobileMenu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ export default function MobileMenu() {
   return (
     <>
       <button
-        className={cn(styles.burger, 'visible md:hidden')}
+        className={cn(styles.burger, 'visible lg:hidden')}
         aria-label="Toggle menu"
         type="button"
         onClick={toggleMenu}
@@ -72,6 +73,10 @@ export default function MobileMenu() {
             <Link href="https://github.com/yoshiki495" className="flex w-auto pb-4">
               GitHub
             </Link>
+          </li>
+          <li>
+            <p className='text-gray-900 dark:text-gray-100 text-sm font-semibold mb-4'>About me</p>
+            <Chat/>
           </li>
         </ul>
       )}
