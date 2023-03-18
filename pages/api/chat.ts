@@ -7,10 +7,6 @@ if (!process.env.OPENAI_API_KEY) {
   throw new Error('Missing Environment Variable OPENAI_API_KEY')
 }
 
-const botName = 'AI'
-const userName = 'News reporter' // TODO: move to ENV var
-const firstMessge = initialMessages[0].message
-
 // @TODO: unit test this. good case for unit testing
 const generatePromptFromMessages = (messages: Message[], firstMessage: string) => {
   const messagesList: Object[] = []
@@ -56,7 +52,7 @@ export default async function handler(req: NextRequest) {
                           
                       - 2020年7月 - 2021年3月
                           
-                          ### **株式会社フェズ**
+                          ### **株式会社A（広告系）**
                           
                           Flask, GAS, Google Analytics APIを使用して、社内分析ツールのバックエンド開発を担当。
                           
@@ -68,7 +64,7 @@ export default async function handler(req: NextRequest) {
                           
                       - 2022年5月 - 現在
                           
-                          ### **株式会社キュービック**
+                          ### **株式会社B（メディア系）**
                           
                           Node.js, Serverless Frameworkを使用して、新規プロダクトのバックエンド開発を担当。
                           

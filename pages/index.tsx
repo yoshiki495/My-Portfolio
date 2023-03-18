@@ -93,7 +93,7 @@ export default function Home() {
                           <div className="text-gray-500">2020年7月 - 2021年3月</div>
                         </div>
                         <div className="ml-12">
-                          <h4 className="font-bold mb-2">株式会社フェズ</h4>
+                          <h4 className="font-bold mb-2">株式会社A（広告系）</h4>
                           <p className="text-gray-500">Flask, GAS, Google Analytics APIを使用して、社内分析ツールのバックエンド開発を担当。</p>
                         </div>
                       </li>
@@ -115,7 +115,7 @@ export default function Home() {
                           <div className="text-gray-500">2022年4月 - 現在</div>
                         </div>
                         <div className="ml-12">
-                          <h4 className="font-bold mb-2">宮治研究室</h4>
+                          <h4 className="font-bold mb-2">研究室</h4>
                           <p className="text-gray-500">ネットワーク情報システムを専攻しており、最新技術を使用したプロダクト開発を行なう。</p>
                         </div>
                       </li>
@@ -137,7 +137,7 @@ export default function Home() {
                           <div className="text-gray-500">2022年5月 - 現在</div>
                         </div>
                         <div className="ml-12">
-                          <h4 className="font-bold mb-2">株式会社キュービック</h4>
+                          <h4 className="font-bold mb-2">株式会社B（メディア系）</h4>
                           <p className="text-gray-500">Node.js, Serverless Frameworkを使用して、新規プロダクトのバックエンド開発を担当。</p>
                         </div>
                       </li>
