@@ -74,7 +74,7 @@ export default function MobileMenu() {
               GitHub
             </Link>
           </li>
-          <li>
+          <li className='invisible min-[464px]:visible'>
             <p className='text-gray-900 dark:text-gray-100 text-sm font-semibold mb-4'>About me</p>
             <Chat/>
           </li>
