@@ -196,7 +196,7 @@ export default function Home() {
       </p>
       <VideoCard
         index="01"
-        href="https://github.com/yoshiki495/PythonDiagnosticApp"
+        href="https://github.com/yoshiki495/Python-Diagnostic-App"
         title="Python診断 ~ B2開発（個人） ~ "
       />
       <VideoCard
