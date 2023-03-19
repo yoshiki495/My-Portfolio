@@ -224,11 +224,11 @@ export default function Home() {
         href="https://github.com/yoshiki495/My-Portfolio"
         title="My Portfolio ~ B3開発（個人） ~ "
       />
-      {/* <VideoCard
+      <VideoCard
         index="06"
-        href="https://github.com/yoshiki495/Mind-Mate"
-        title="MindMate ~ B3開発（個人） ~ "
-      /> */}
+        href="https://github.com/yoshiki495/Talk-Matic"
+        title="Talk Matic ~ B3開発（個人） ~ "
+      />
 </div>
 </Container>
 </Suspense>
