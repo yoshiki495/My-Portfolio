@@ -24,7 +24,7 @@ export default function Home() {
               </h2>
               <h2 className="text-gray-700 dark:text-gray-200 mt-2">
               <span className="font-semibold">Backend Dev</span>
-                {'  '} ▶︎ | Python | Serverless Archit. | Django | 
+                {'  '} ▶︎ | Python | Django | Serverless Archit. | 
               </h2>
               <h2 className="text-gray-700 dark:text-gray-200 mt-2">
               <span className="font-semibold">Still learning</span>
