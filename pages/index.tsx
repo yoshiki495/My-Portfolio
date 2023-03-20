@@ -76,7 +76,7 @@ export default function Home() {
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">青山学院大学 社会情報学部</h4>
-                          <p className="text-gray-500">情報/人間コースを専攻しており、コンピュータサイエンスの基礎からUI/UXを軸としたプロダクト開発を学ぶ。</p>
+                          <p className="text-gray-500">情報/人間コースを専攻しており、コンピュータサイエンスの基礎から UI/UX を軸としたプロダクト開発を学ぶ。</p>
                         </div>
                       </li>
                       <li className="mb-4">
@@ -98,7 +98,7 @@ export default function Home() {
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">株式会社フェズ</h4>
-                          <p className="text-gray-500">Flask, GAS, Google Analytics APIを使用して、社内分析ツールのバックエンド開発を担当。</p>
+                          <p className="text-gray-500">Flask, GAS, Google Analytics API, Slack API を使用して、社内分析ツールのバックエンド開発を担当。</p>
                         </div>
                       </li>
                       <li className="mb-4">
@@ -120,7 +120,7 @@ export default function Home() {
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">株式会社Wizleap</h4>
-                          <p className="text-gray-500">Vue.jsを使用して、既存プロダクトのフロントエンド開発を担当。</p>
+                          <p className="text-gray-500">Vue.js を使用して、既存プロダクトのフロントエンド開発を担当。</p>
                         </div>
                       </li>
                       <li className="mb-4">
@@ -141,7 +141,7 @@ export default function Home() {
                           <div className="text-gray-500">2022年4月 - 現在</div>
                         </div>
                         <div className="ml-12">
-                          <h4 className="font-bold mb-2">研究室</h4>
+                          <h4 className="font-bold mb-2">宮治研究室</h4>
                           <p className="text-gray-500">ネットワーク情報システムを専攻しており、最新技術を使用したプロダクト開発を行なう。</p>
                         </div>
                       </li>
@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
                         <div className="ml-12">
                           <h4 className="font-bold mb-2">株式会社キュービック</h4>
-                          <p className="text-gray-500">Node.js, Serverless Frameworkを使用して、新規プロダクトのバックエンド開発を担当。</p>
+                          <p className="text-gray-500">Node.js, Docker, Serverless Framework を使用して、新規プロダクトのバックエンド開発を担当。</p>
                         </div>
                       </li>
                     </ul>
@@ -227,6 +227,207 @@ export default function Home() {
                     <div className="ml-12">
                       <p className="text-gray-500">
                         100人以上在籍する学生インターンの中で、四半期で最も成果を上げたと認められ、MVPを受賞しました。
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-4 text-black dark:text-white">
+        My Learning
+      </h3>
+      <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center md:justify-center mb-8 md:mb-16">
+          <div className="mx-4">
+            <div className="text-gray-700 dark:text-gray-200 text-center md:text-left">
+              <div className="relative pl-4 mb-8">
+                <div className="border-r-2 border-gray-600 absolute h-full top-0" style={{left: "15px"}}></div>
+                <ul className="list-none m-2 p-2">
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">Ruby, Ruby on Rails, jQuery, HTML, CSS</div>
+                      <div className="text-gray-500">2020年4月 - 2020年6月</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        ネット記事を参考にWeb開発の基本を学習し、ポートフォリオサイトを作成。
+                      </p>
+                    </div>
+                  </li>
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">Python, Flask, JavaScript, GAS</div>
+                      <div className="text-gray-500">2020年7月 - 2021年3月</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        インターン先で学んだことをもとに、スクレイピングなど自分の興味のある分野を学習。
+                      </p>
+                    </div>
+                  </li>
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">Python, Django, SQL</div>
+                      <div className="text-gray-500">2021年4月 - 2021年8月</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        技術書を参考にWeb開発の基本を学習し、ポートフォリオサイトを再度作成。
+                      </p>
+                    </div>
+                  </li>
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">PHP, Laravel, Vue.js</div>
+                      <div className="text-gray-500">2021年9月 - 2021年12月</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        フロントエンドとバックエンドの知識を学習し、ポートフォリオサイトを再度作成。
+                      </p>
+                    </div>
+                  </li>
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">TypeScript, Node.js, React, Firebase</div>
+                      <div className="text-gray-500">2022年1月 - 2022年8月</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        フロントエンドとバックエンドの知識を学習し、ポートフォリオサイトを再度作成。
+                      </p>
+                    </div>
+                  </li>
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">C#, Unity, Azure</div>
+                      <div className="text-gray-500">2022年9月 - 2022年12月</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        ゲーム開発やセンサーの知識を学習すると共に、音声認識を学習。
+                      </p>
+                    </div>
+                  </li>
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">Next.js</div>
+                      <div className="text-gray-500">2023年1月 - 2023年2月</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        フロントエンドの知識を学習し、ポートフォリオサイトを再度作成。
+                      </p>
+                    </div>
+                  </li>
+                  <li className="mb-4">
+                    <div className="flex items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-8 w-8">
+                      <path
+                        d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.087 9l.54 9.176A3 3 0 006.62 21h10.757a3 3 0 002.995-2.824L20.913 9H3.087zm6.163 3.75A.75.75 0 0110 12h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
+                    </svg>
+                      <div className="flex-1 ml-4 font-bold">AWS, IaC</div>
+                      <div className="text-gray-500">2023年3月 - 現在</div>
+                    </div>
+                    <div className="ml-12">
+                      <p className="text-gray-500">
+                        クラウドの知識を学習し、AWS SAAの資格取得を目指す。
                       </p>
                     </div>
                   </li>
