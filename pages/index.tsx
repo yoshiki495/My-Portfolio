@@ -442,7 +442,7 @@ export default function Home() {
         My Project
       </h3>
       <p className="text-gray-600 dark:text-gray-400 mb-4">
-        今までの制作物を時系列に沿って紹介します。
+        今までの制作物の一部を時系列に沿って紹介します。
       </p>
       <VideoCard
         index="01"
