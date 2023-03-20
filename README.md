@@ -10,5 +10,6 @@
 
 - TypeScript
 - Next.js
+- Vercel
 - Tailwind CSS
 - GPT-3.5-Turbo
